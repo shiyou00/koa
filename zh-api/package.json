@@ -2,15 +2,17 @@
   "name": "zh-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.10.0"
+    "koa": "^2.10.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
